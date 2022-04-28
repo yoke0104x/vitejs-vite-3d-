@@ -286,9 +286,11 @@ function Carousel() {
   }, []);
 
   const children = imgWrapper.map((src, i) => (
-    <div key={i.toString()} className="img-wrapper">
-      123123132
-    </div>
+    <div
+      key={i.toString()}
+      className="img-wrapper"
+      style={{ background: `url(${imgWrapper[i]})` }}
+    ></div>
   ));
 
   const onmouseenter = () => {

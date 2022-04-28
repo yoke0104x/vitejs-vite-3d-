@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Carousel from './Carousel3d';
+import Carouse from './Carouse';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Carousel />
+      <Carouse />
     </div>
   );
 }
